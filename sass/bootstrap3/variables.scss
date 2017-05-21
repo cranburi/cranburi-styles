@@ -1,0 +1,54 @@
+$bootstrap-sass-asset-helper: true;
+
+$brand-primary:         $color-cranburi-red !default;
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+$body-bg:               #eee !default;
+/* Navbar Overrides */
+
+$navbar-default-color:             #fff !default;
+$navbar-default-bg:                $color-cranburi-red !default;
+$navbar-border-radius: 0;
+
+// Navbar links
+$navbar-default-link-color:                #fff !default;
+$navbar-default-link-hover-color:          #fff !default;
+$navbar-default-link-hover-bg:             $color-cranburi-darkred !default;
+$navbar-default-link-active-color:         #fff !default;
+$navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%) !default;
+$navbar-default-link-disabled-color:       #ccc !default;
+$navbar-default-link-disabled-bg:          transparent !default;
+
+// Navbar brand label
+$navbar-default-brand-color:               $navbar-default-link-color !default;
+$navbar-default-brand-hover-color:         #fff !default;
+$navbar-default-brand-hover-bg:            transparent !default;
+
+// Navbar toggle
+$navbar-default-toggle-hover-bg:           $color-cranburi-darkred !default;
+$navbar-default-toggle-icon-bar-bg:        #fff !default;
+$navbar-default-toggle-border-color:       #fff !default;
+
+/* typography overrides */
+$font-family-sans-serif: $cranburi-font-sans-serif-secondary;
+$font-size-base:          16px !default;
+
+/* Panel Overrides */
+$panel-border-radius: 0;
+$panel-default-heading-bg: #fff;
+$list-group-border-radius: 0;
+
+/* Buttons Override */
+$btn-border-radius-base:         0 !default;
+$btn-border-radius-large:        0 !default;
+$btn-border-radius-small:        0 !default;
+
+
+$btn-default-color:              #fff !default;
+$btn-default-bg:                 $color-cranburi-lightgreen !default;
+
+$btn-primary-color:              #fff !default;
+$btn-primary-bg:                 $color-cranburi-lightred !default;

@@ -1,0 +1,12 @@
+.validation-messages {
+  margin-top: .25em;
+  min-height: 1.5em;
+  font-size: 1em;
+  padding-left: .25em;
+  color: $color-cranburi-lightgrey;
+
+  &.touched {
+    color: $color-cranburi-red;
+  }
+
+}
