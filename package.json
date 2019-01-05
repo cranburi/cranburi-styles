@@ -1,72 +1,19 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "cranburi-styles@git+ssh://git@github.com/cranburi/cranburi-styles.git#master",
-        "scope": null,
-        "escapedName": "cranburi-styles",
-        "name": "cranburi-styles",
-        "rawSpec": "git+ssh://git@github.com/cranburi/cranburi-styles.git#master",
-        "spec": "git+ssh://git@github.com/cranburi/cranburi-styles.git#master",
-        "type": "hosted",
-        "hosted": {
-          "type": "github",
-          "ssh": "git@github.com:cranburi/cranburi-styles.git#master",
-          "sshUrl": "git+ssh://git@github.com/cranburi/cranburi-styles.git#master",
-          "httpsUrl": "git+https://github.com/cranburi/cranburi-styles.git#master",
-          "gitUrl": "git://github.com/cranburi/cranburi-styles.git#master",
-          "shortcut": "github:cranburi/cranburi-styles#master",
-          "directUrl": "https://raw.githubusercontent.com/cranburi/cranburi-styles/master/package.json"
-        }
-      },
-      "/repos/cranburi_bundles"
-    ]
-  ],
-  "_from": "git+ssh://git@github.com/cranburi/cranburi-styles.git#master",
-  "_id": "cranburi-styles@0.0.0",
-  "_inCache": true,
-  "_installable": true,
-  "_location": "/cranburi-styles",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "cranburi-styles@git+ssh://git@github.com/cranburi/cranburi-styles.git#master",
-    "scope": null,
-    "escapedName": "cranburi-styles",
-    "name": "cranburi-styles",
-    "rawSpec": "git+ssh://git@github.com/cranburi/cranburi-styles.git#master",
-    "spec": "git+ssh://git@github.com/cranburi/cranburi-styles.git#master",
-    "type": "hosted",
-    "hosted": {
-      "type": "github",
-      "ssh": "git@github.com:cranburi/cranburi-styles.git#master",
-      "sshUrl": "git+ssh://git@github.com/cranburi/cranburi-styles.git#master",
-      "httpsUrl": "git+https://github.com/cranburi/cranburi-styles.git#master",
-      "gitUrl": "git://github.com/cranburi/cranburi-styles.git#master",
-      "shortcut": "github:cranburi/cranburi-styles#master",
-      "directUrl": "https://raw.githubusercontent.com/cranburi/cranburi-styles/master/package.json"
-    }
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "git+ssh://git@github.com/cranburi/cranburi-styles.git#d2054d4789abebbffccc4e034f8d28e547e72c1c",
-  "_shasum": "d8ab64458f881e610530e656999400b8425a4940",
-  "_shrinkwrap": null,
-  "_spec": "cranburi-styles@git+ssh://git@github.com/cranburi/cranburi-styles.git#master",
-  "_where": "/repos/cranburi_bundles",
-  "author": "",
-  "dependencies": {},
+  "name": "@cranburi/cranburi-styles",
+  "version": "1.0.0",
   "description": "cranburi brand styles",
-  "devDependencies": {},
-  "gitHead": "d2054d4789abebbffccc4e034f8d28e547e72c1c",
-  "license": "ISC",
-  "main": "gulpfile.js",
-  "name": "cranburi-styles",
-  "optionalDependencies": {},
-  "readme": "cranburi styles",
-  "readmeFilename": "README.md",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cranburi/cranburi-styles.git"
+  },
+  "author": "cranburi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cranburi/cranburi-styles/issues"
+  },
+  "homepage": "https://github.com/cranburi/cranburi-styles#readme"
 }
